@@ -138,19 +138,19 @@ function dataDate(start, end) {
   } else {
     let valueWeek = Math.floor(difference / (7 * 24 * 60 * 60 * 1000));
     if (valueWeek > 0) {
-      return `deadline ${valueWeek} minggu lagi`;
+      return `Durasi: ${valueWeek}`;
     } else {
       let valueDay = Math.floor(difference / (24 * 60 * 60 * 1000));
       if (valueDay > 0) {
-        return `deadline ${valueDay} hari lagi`;
+        return `Durasi: ${valueDay}`;
       } else {
         let valueHour = Math.floor(difference / (60 * 60 * 1000));
         if (valueHour > 0) {
-          return `deadline ${valueHour} lagi`;
+          return `Durasi: ${valueHour}`;
         } else {
           let minuteValue = Math.floor((difference / 60) * 1000);
           if (minuteValue > 0) {
-            return `deadline ${minuteValue} lagi`;
+            return `Durasi: ${minuteValue}`;
           } else {
             let secondValue = Math.floor(difference / 1000);
             if (secondValue > 0) {
