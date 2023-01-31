@@ -134,27 +134,27 @@ function dataDate(start, end) {
 
   let valueMonth = Math.floor(difference / (30 * 24 * 60 * 60 * 1000));
   if (valueMonth > 0) {
-    return `deadline ${valueMonth} bulan lagi`;
+    return `Durasi: ${valueMonth} Bulan `;
   } else {
     let valueWeek = Math.floor(difference / (7 * 24 * 60 * 60 * 1000));
     if (valueWeek > 0) {
-      return `Durasi: ${valueWeek}`;
+      return `Durasi: ${valueWeek} Minggu`;
     } else {
       let valueDay = Math.floor(difference / (24 * 60 * 60 * 1000));
       if (valueDay > 0) {
-        return `Durasi: ${valueDay}`;
+        return `Durasi: ${valueDay} Hari`;
       } else {
         let valueHour = Math.floor(difference / (60 * 60 * 1000));
         if (valueHour > 0) {
-          return `Durasi: ${valueHour}`;
+          return `Durasi: ${valueHour} Jam`;
         } else {
           let minuteValue = Math.floor((difference / 60) * 1000);
           if (minuteValue > 0) {
-            return `Durasi: ${minuteValue}`;
+            return `Durasi: ${minuteValue} Menit`;
           } else {
             let secondValue = Math.floor(difference / 1000);
             if (secondValue > 0) {
-              return `deadline ${secondValue} lagi`;
+              return `Durasi: ${secondValue} detik`;
             } else {
               return `waktu anda sudah habis`;
             }
