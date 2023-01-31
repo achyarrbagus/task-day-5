@@ -1,0 +1,337 @@
+/*  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.fo-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.fo-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.fo-toboto-slab {
+  font-family: "Roboto Slab", serif;
+}
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-form {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+}
+.project-form {
+  width: 35%;
+  margin: auto;
+  height: 80vh;
+  background-color: #e3e7eb;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.project-form h1 {
+  padding: 5px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.input-name {
+  margin: auto;
+  padding: 5px;
+  width: 80%;
+  text-align: left;
+}
+.input-nama-project {
+  width: 100%;
+  height: 40px;
+  border: solid 5px white;
+  border-radius: 5px;
+}
+
+.date-input {
+  text-align: left;
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+.start-date {
+  flex: 40%;
+  padding: 5px;
+}
+.end-date {
+  flex: 40%;
+  padding: 5px;
+}
+.start-date input {
+  padding: 5px;
+  text-align: left;
+  height: 40px;
+  border: solid 5px white;
+  border-radius: 5px;
+  width: 100%;
+}
+.end-date input {
+  text-align: left;
+  height: 40px;
+  border: solid 5px white;
+  border-radius: 5px;
+  width: 100%;
+}
+.deskrip-input {
+  padding-left: 5px;
+  padding-right: 5px;
+
+  align-items: center;
+  text-align: left;
+  height: 150px;
+  width: 80%;
+  margin: auto;
+}
+.deskrip-input label {
+  align-items: center;
+}
+.deskrip-input textarea {
+  width: 100%;
+  border: solid 5px white;
+  border-radius: 5px;
+}
+
+.technologies-check {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.technologies-check .left-side {
+  text-align: left;
+  flex: 50%;
+}
+
+.technologies-check .right-side {
+  text-align: left;
+  flex: 50%;
+}
+.nodeJs-checkBox,
+.reactJs-checkBox,
+.nextJs-checkBox,
+.typeScript-checkBox {
+  padding: 10px;
+}
+.image-input {
+  margin: auto;
+  width: 80%;
+}
+.file-input {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  justify-content: left;
+  background-color: white;
+  border-radius: 5px;
+}
+.file-input input {
+  flex: 50%;
+  padding: 10px;
+  color: transparent;
+}
+.file-input .img {
+  flex: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.button-post {
+  margin-top: 10px;
+  display: flex;
+  justify-content: right;
+}
+.button-post button {
+  cursor: pointer;
+  color: white;
+  background-color: hsl(0, 0%, 0%);
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+}
+.button-post button:hover {
+  background-color: hwb(0 68% 27%);
+}
+
+/* .button-post button {
+  border: none;
+  background-color: lightblue;
+  margin-top: 5px;
+
+  padding: 5px;
+  height: 30px;
+} */
+
+/* container project */
+.container-project {
+  height: 100%;
+  background-color: white;
+}
+.my-project {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.my-project .judul-project {
+  text-align: center;
+}
+
+.all-card {
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  column-gap: 20px;
+}
+/* .card-statis {
+  width: 340px;
+  height: 100px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+} */
+.header-blog {
+  width: 100%;
+}
+.header-blog h1 {
+  overflow: hidden;
+  font-size: 15px;
+}
+.image {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.image img {
+  background-position: center;
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.image,
+.header-blog,
+.deskrip-blog {
+  padding: 5px;
+}
+.deskrip-blog {
+  overflow: auto;
+  text-align: justify;
+}
+
+.card-dinamis {
+  border-radius: 10px;
+  overflow: auto;
+  padding: 10px;
+  margin-top: 20px;
+  width: 450px;
+  height: 600px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* technology */
+.judul-blog {
+  height: 50px;
+  width: auto;
+}
+.judul-blog a {
+  font-size: 20px;
+  color: black;
+}
+.judul-blog a:hover {
+  color: gray;
+}
+.deskrip-waktu {
+  height: 30px;
+  width: auto;
+}
+.deskrip-waktu p {
+  font-size: 18px;
+}
+.article-blog {
+  text-align: justify;
+  font-size: 20px;
+  overflow: hidden;
+  height: 80px;
+}
+.technology ul {
+  margin-top: 10px;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+}
+.technology ul li {
+  display: flex;
+}
+
+/* buttton group */
+
+.group-button {
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: left;
+}
+.editButton {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  align-items: center;
+}
+.deleteButton {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  width: 100px;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  align-items: center;
+}
+/*  */
+.deleteButton:hover {
+  background-color: #d13939;
+}
+
+.deleteButton:active {
+  background-color: #5d1616;
+  box-shadow: 0 5px rgb(144, 37, 37);
+  transform: translateY(4px);
+}
+/*  */
+.editButton:hover {
+  background-color: hsl(0, 3%, 35%);
+}
+
+.editButton:active {
+  background-color: #0e110e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

@@ -1,0 +1,99 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.fo-toboto-slab {
+  font-family: "Roboto Slab", serif;
+}
+.font-article {
+  font-family: "Times New Roman", Times, serif;
+}
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 150px;
+}
+article {
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  flex-wrap: wrap;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.title-blog {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.header .section-left {
+  flex: 60%;
+  justify-content: left;
+  display: flex;
+}
+.section-left img {
+  width: 100%;
+}
+
+.header .section-right {
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+
+  font-size: 25px;
+  flex: 40%;
+  display: flexbox;
+  align-items: center;
+}
+.duration-section {
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+.duration-section-detail {
+  padding: 0 50px;
+}
+.duration-section-clock {
+  padding: 0 50px;
+}
+.section-technology {
+  margin-top: 40px;
+  display: flexbox;
+  padding: 0 50px;
+}
+.technologies-header {
+  display: flex;
+  width: 100%;
+}
+.technologie-choice ul {
+  padding: 20px 0;
+  list-style: none;
+  column-gap: 30px;
+  display: flex;
+}
+/* .... */
+
+/* section article */
+.section-article {
+  margin-top: 20px;
+}
+.main-content p {
+  text-align: justify;
+}

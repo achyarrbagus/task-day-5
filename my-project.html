@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  -->
+    <link rel="stylesheet" href="./css/my-project.css" />
+    <link rel="stylesheet" href="./css/Navbar.css" />
+    <!-- lick cdn -->
+  </head>
+  <body class="">
+    <!-- Navbar -->
+    <nav class="navbar fo-montserrat">
+      <div class="nav-left-side" style="padding: 10px">
+        <div>
+          <img src="./assets/images/brandwhite.png" alt="" height="50px" />
+        </div>
+        <div class="list-menu">
+          <a href="./index.html" style="color: white">Home</a>
+          <a href="#" style="color: white">My Project</a>
+        </div>
+      </div>
+      <div class="right-side" style="padding: 10px">
+        <a
+          href="./form-input.html"
+          style="
+            font-size: 20px;
+            list-style: none;
+            color: rgb(3, 2, 0);
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+          "
+          >Contact Me</a
+        >
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- form -->
+    <div class="container-form">
+      <div class="project-form">
+        <h1>ADD MY PROJECT</h1>
+        <div class="form-input">
+          <form onsubmit="getData(event)">
+            <div class="input-name">
+              <label for="">masukan Nama</label>
+              <input type="text" class="input-nama-project" id="namaProject" />
+            </div>
+            <div class="date-input">
+              <div class="start-date">
+                <label for="">start date</label>
+                <input type="date" id="start-date" />
+              </div>
+              <div class="end-date">
+                <label for="">End date</label>
+                <input type="date" id="end-date" />
+              </div>
+            </div>
+            <div class="deskrip-input">
+              <label for="">description</label>
+              <textarea name="" id="text-area-input" cols="54" rows="7"></textarea>
+            </div>
+            <div class="technologies-check">
+              <div class="left-side">
+                <div class="nodeJs-checkBox">
+                  <label for="">Node Js</label>
+                  <input type="checkbox" value="./assets/images/teknology/node-logo.svg" id="checkBoxNode" />
+                </div>
+                <div class="reactJs-checkBox">
+                  <label for="">React Js</label>
+                  <input type="checkbox" value="./assets/images/teknology/react-logo.svg" id="checkBoxReact" />
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="nextJs-checkBox">
+                  <label for="">Next Js</label>
+                  <input type="checkbox" value="./assets/images/teknology/next-logo.svg" id="checkBoxNext" />
+                </div>
+                <div class="typeScript-checkBox">
+                  <label for="">TypeScript</label>
+                  <input type="checkbox" value="./assets/images/teknology/typeScript-logo.svg" id="checkBoxType" />
+                </div>
+              </div>
+            </div>
+            <div class="image-input">
+              <p class="upload-img">Upload Image</p>
+              <div class="file-input">
+                <input type="file" value="" id="img-project" />
+                <div class="img">
+                  <img src="./assets/images/file.png" alt="" />
+                </div>
+              </div>
+              <div class="button-post">
+                <button>submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--end form  -->
+    <div class="container-project">
+      <div class="my-project">
+        <h1 class="judul-project">MY PROJECT</h1>
+        <div class="all-card" id="all-card">
+          <!-- <div class="card-dinamis" id="dinamisCard">
+            <div class="image" id="imageProject"><img src="" alt="" /></div>
+            <div class="header-blog">
+              <h1 class="judul-blog"><a href="./blog-content.html">asdsd</a></h1>
+              <p class="deskrip-waktu"></p>
+            </div>
+            <div class="container-blog">
+              <p class="deskrip-blog"></p>
+            </div>
+            <div class="technology">
+              <ul>
+                <li><img src="" alt="" width="5%" height="5%" /></li>
+                <li><img src="" alt="" width="5%" height="5%" /></li>
+                <li><img src="" alt="" width="5%" height="5%" /></li>
+                <li><img src="" alt="" width="5%" height="5%" /></li>
+              </ul>
+            </div>
+            <div class="group-button">
+              <div class="editButton">
+                <button class="">edit</button>
+              </div>
+              <div class="deleteButton">
+                <button class="deleteButton">delete</button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="./js/my-project.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
